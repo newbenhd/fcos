@@ -1,0 +1,10 @@
+variant: fcos
+version: 1.5.0
+passwd:
+  users:
+    - name: ben
+      groups:
+        - docker
+      shell: /bin/bash
+      ssh_authorized_keys:
+        - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCSDqx2lY+YDxYz8lytWeH39wnzQkfom7ueZPBbr/sjskJ6SrHdB0brzqBRNbecb6mUCT4J0H+UDmYI97NGJgJqXeq8fcMGisxKFygRLprb7JpNDYWZZNZy68a9IUl574Pr/SgLCFGqjPZJnve8tJ6Cct1zGNPp+sp4pW+ium06maEFooKHwiOT7okhCtoPC2SL9p85tK5X25jGBSnLnQf6iV5YXP2HiCKIX5HQ0B6Ib9QuYAeMh4QqLTf9SSM2Xs/YVCHZ+7VeMNf5YZo5gBxqhx3x0+z5e9vX+Dsma2IdXfP4hFpj2rJ5c4QeZRNmPpMR3JJCHVgKnKWv+T5YKwaIzRQRoGjCbP/iIJDzHpNkX/6PLk5iUzeii2qoU9jEsoYfQNDX/SruqkvtPbChcJ5kaNa+U6Ov6GaP7Cy2bj2UcR0Vur5dm9chFisTuUC+SvzK3scs32r0xdmRgv0t0Ek76FDHkAlXY/Q980LGnKM44Uh7U3clLMUbLmvJstz505m7PRC5NN2aE63MBr6quWiAYwTHchnQIgpKYBhJJ8GQkQfdMWShnoZel81wwKJuGclzSiKr4d3ofr/WKZ2DxOoBPRZdveccfzMUDMpDQ4q381QJ+S1P/bq3v6SyJfAJUNO3c9wRqY/62wSix787oq532zcSkMVF+XrrIkxKFJsFSQ== i@pop-os
